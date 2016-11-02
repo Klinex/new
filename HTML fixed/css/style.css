@@ -1,0 +1,167 @@
+/*Структура сайта*/
+body {
+  width: 1200px;
+  margin: 0 auto;
+ font: 16px/24px Arial, Tahoma, sans-serif;}
+
+
+a {text-decoration: none;}
+
+  /*Шапка сайта*/
+  .header {
+    margin: 0 auto;
+    width: 1062px;
+    height: 163px;
+   }
+
+  .header__topmenu {
+    position: relative;
+    float: right;
+    width: auto;
+    height: auto;
+    font-size: 14px;
+   font-family: PlayfairDisplayRegular;
+   line-height:163px;
+   }
+  .header__topmenu a{margin: 0 0 0 106px;color: #626262;}
+  .header__topmenu a:hover {color: #c8c8c8;}
+  .header__logo {
+   float: left;
+   height: auto;
+   position: relative;
+   line-height: 163px;}
+
+/*Середина*/
+.main {
+  margin: 0 auto;
+  width: 1062px;
+}
+/*Картинка*/
+.main__image {
+  height: 607px;
+}
+
+/*----------------------------------БЛОКИ------------------------------------*/
+.main__section {
+  height:2500px;
+  width: auto;
+}
+
+/*----------------------------------БЛОК1------------------------------------*/
+.main__section_article1 {
+  width: 750px;
+  height: auto;
+  float: left;
+}
+.text {
+  font-size: 14px;
+ font-family: UbuntuLight;
+ color: #b4ad9e;
+  width: 661px;
+}
+.text_1 {
+  font-size: 30px;
+ font-family: PlayfairDisplayRegular;
+ color: #626262;
+}
+.text_2 {
+  line-height: 24px;
+  font-size: 14px;
+ font-family: PlayfairDisplayRegular;
+ color: #626262;
+}
+.text2 {
+  position: relative;
+  left: 30px;
+  width: 605px;
+  font-size: 14px;
+ font-family: PlayfairDisplayItalic;
+ color: #626262;
+  line-height: 24px;
+}
+.text3 {
+  font-size: 14px;
+ font-family: PlayfairDisplayRegular;
+ color: #626262;
+ line-height: 24px;
+  height: 310px;
+}
+
+.share {
+  position: relative;
+  left: 530px;
+  font-size: 13px;
+  font-family: UbuntuLight;
+  color: #b4ad9e;
+  line-height: 18px;
+  width: 196px;
+  height: 18px;
+}
+.share a{
+  margin: 0 0 0 13px;}
+
+
+
+/*----------------------------------БЛОК2------------------------------------*/
+.main__section_article2 {
+  position: relative;
+  height: 1000px;
+  width: 278px;
+  float: right;
+}
+.kartinka {
+  float: right;
+  height: 206px;
+  width: 272px;}
+.about {
+  font-family: PlayfairDisplayRegular;
+  color: #626262;
+  font-size: 24px;
+}
+.about a {
+  margin:0 7px 0 0;
+}
+.about_me {
+  font-size: 12px;
+  line-height: 20px;
+}
+.toppost {
+  position: relative;
+  font-family: UbuntuLight;
+  font-size: 14px;
+  color: #b4ad9e;
+  top: 20px;
+}
+.toppost li {
+  font-family: PlayfairDisplayRegular;
+  font-size: 16px;
+  color: #626262;
+}
+.banner {
+  position: relative;
+  top: 30px;
+  left: 15px;
+  height: 250px;
+  width: 250px;
+}
+
+
+/*---------------------------FOOTER-----------------------------------------*/
+.footer {
+  font-family: PlayfairDisplayRegular;
+  font-size: 14px;
+  height: 97px;
+  background: #D9D9D9;
+}
+.text4 {
+  line-height: 97px;
+  width: 1062px;
+  margin:0 auto;
+}
+.follow {
+  line-height: 97px;
+  float: right;
+
+}
+.follow a{
+  margin: 0 0 0 13px;}

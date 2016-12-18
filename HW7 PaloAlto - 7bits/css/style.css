@@ -1,0 +1,756 @@
+body {
+  margin: 0 auto;
+background: #f7f9fc;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 952px;
+}
+/*---------------------------HEADER---------------------------------*/
+header {
+  width: 952px;
+  height: 192px;
+}
+.logo {
+  font-family: LatoBoldItalic, sans-serif;
+  float: left;
+  font-size: 42px;
+line-height: 192px;
+}
+/*---------------------------------------------------------------------*/
+.nav {
+  position: relative;
+  top: 90px;
+ font-family: LatoBold, sans-serif;
+  left: 290px;
+  font-size: 16px;
+}
+.rollover {
+  position: relative;
+  top: 68px;
+  float: right;
+  width: 16px;
+  height: 16px;
+  background: url(../images/s2.png);
+}
+@media only screen and (min-device-pixel-ratio: 1.5){
+  .rollover {
+    position: relative;
+    top: 68px;
+    float: right;
+    width: 16px;
+    height: 16px;
+    background: url(../images/ritS2@2x.png);
+  }
+}
+.rollover:hover{
+  background: url(../images/s3.png);
+   display: block;
+}
+.nav  a{
+    color: #000;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 3px;
+    margin-left: 48px;
+    text-decoration: none;
+}
+.nav a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    background: #5c6bc0;
+    -webkit-transition: width .5s ease, background-color .5s ease;
+    transition: width .5s ease, background-color .5s ease;
+}
+.nav a:hover:after {
+    width: 100%;
+    background: #5c6bc0;
+}
+.nav a:active:after {
+  color: #5c6bc0;
+    right: 0;
+    bottom: 0;
+    height: 3px;
+    width: 0;
+    -webkit-transition: width .0s ease, background-color .0s ease;
+    transition: width .0s ease, background-color .0s ease;
+  }
+  .nav a:active {
+    color: #5c6bc0;
+  }
+
+/*---------------------------MAIN----------------------------------*/
+.post1 {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+background: #ffffff;
+}
+.i_do_travel {
+  position: relative;
+  left: 110px;
+float: right;
+width: 88px;
+height: 32px;
+background: #5c6bc0;
+}
+.i_do {
+  font-family: LatoBold, sans-serif;
+  margin: 0 0 0 11px;
+  line-height: 32px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.post1_1 {
+  padding: 59px 98px 6px 98px;
+}
+.post2 {
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+margin: 50px 0;
+background: #ffffff;
+}
+.post2_1 {
+  padding: 59px 98px 6px 98px;
+}
+.i_do_observe {
+  position: relative;
+  left: 110px;
+float: right;
+width: 102px;
+height: 32px;
+background: #5c6bc0;
+}
+.post3 {
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+background: #ffffff;
+}
+.post3_1 {
+  padding: 59px 98px 25px 98px;
+}
+.i_do_reflect {
+  position: relative;
+  left: 110px;
+  float: right;
+  width: 94px;
+  height: 32px;
+  background: #5c6bc0;
+}
+.mounth {
+  font-family: LatoBold, sans-serif;
+  margin: 0 50px 14px 0;
+  font-size: 14px;
+  color: #bdbdbd;
+}
+h1 {
+  font-family: LatoBold, sans-serif;
+  line-height: 50px;
+  margin: 0;
+  font-size: 40px;
+  color: #000000;
+}
+.text {
+  font-family: LatoRegular, sans-serif;
+  margin: 0;
+  font-size: 17px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.send {
+  cursor: pointer;
+  font-family: LatoBold, sans-serif;
+  margin: 50px 0;
+  font-size: 21px;
+  color: #5c6bc0;
+}
+.send:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  width: 160px;
+}
+.send:active {
+  color: #5c6bc0;
+  border: 1px solid #5c6bc0;
+}
+.read {
+  font-family: LatoBold, sans-serif;
+  margin: 50px 0;
+  font-size: 21px;
+  color: #5c6bc0;
+}
+.read a:hover {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 30px;
+  color: #5c6bc0;
+}
+.hr1 {
+  margin: 20px 0;
+  width: 900px;
+}
+.hr2 {
+  margin: 20px 0 50px 0;
+  width: 800px;
+}
+.read a:active {
+  color: #5c6bc0;
+  border: 1px solid #5c6bc0;
+}
+.read a {
+  color: #5c6bc0;
+  text-decoration: none;
+}
+.hashtag {
+  font-family: LatoRegular, sans-serif;
+  position: relative;
+  bottom: 72px;
+  float: right;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.hashtag a{
+  margin-left: 10px;
+  text-decoration: none;
+  color:rgba(0, 0, 0, 0.3)
+}
+.hashtag a:hover {
+  text-decoration: underline;
+  color: #5C6BC0;
+}
+.hashtag a:active {
+  text-decoration: none;
+  color: #5C6BC0;
+}
+.images {
+  position: relative;
+  bottom: 5px;
+}
+.img {
+  margin: 0 20px 48px 0;
+  float: left;
+}
+.comment {
+  border-left: 4px solid #eeeeee;
+  padding-left: 20px;
+  font-family: LatoItalic, sans-serif;
+  line-height: 38px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.comment_1 {
+  font-family: LatoItalic, sans-serif;
+  line-height: 38px;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/*---------------------------FOOTER---------------------------------*/
+footer {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background: #5c6bc0;
+  margin-top: 115px;
+}
+.footer {
+  max-width: 952px;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav2 {
+  margin: 45px 0;
+font-family: LatoBold, sans-serif;
+}
+.nav2 a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 34px;
+}
+.nav2 a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
+.footer_text {
+  font-family: LatoBoldItalic, sans-serif;
+  padding-top: 45px;
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 36px;
+}
+.footer_text2 {
+  margin: 0 112px;
+  font-family: LatoRegular;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.footer_text3 {
+  position: relative;
+  bottom: 25px;
+  font-family: LatoRegular, sans-serif;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+}
+.footer_text3 a{
+  color: #ffffff;
+  text-decoration:none;
+}
+.footer_text3 a:hover{
+  color: #ffffff;
+  text-decoration: underline;
+}
+.follow {
+  position: relative;
+  bottom: 55px;
+  margin: 70px 0 0 0;
+}
+.follow a{
+ padding-left: 24px;
+}
+/*---------------------------2Страница-----------------------------------*/
+.post4 {
+  margin: 0 0 150px 0;
+  background: #ffffff;
+}
+.post1_2 {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 59px 98px 40px 98px;
+}
+h2 {
+  font-family: LatoBold, sans-serif;
+  line-height: 50px;
+  margin: 0 0 50px 0;
+  font-size: 40px;
+  color: #000000;
+}
+.form1 {
+  font-size: 18px;
+  float: left;
+  font-family: LatoRegular, sans-serif;
+  height: 55px;
+  margin: 10px 15px 15px 0;
+  padding: 0 30px;
+  width: 306px;
+  border: 0px;
+  background: #F7F9FC;
+}
+.form2 {
+  font-size: 18px;
+  font-family: LatoRegular, sans-serif;
+  height: 55px;
+  margin: 10px 0 15px 15px;
+  padding: 0 30px;
+  width: 300px;
+  border: 0px;
+  background: #F7F9FC;
+}
+.form3 {
+  font-size: 18px;
+  font-family: LatoRegular, sans-serif;
+  height: 55px;
+  margin: 15px 15px 15px 0;
+  padding: 0 30px;
+  width: 698px;
+  border: 0px;
+  background: #F7F9FC;
+}
+.form4 {
+  font-size: 18px;
+  font-family: LatoRegular, sans-serif;
+  height: 145px;
+  margin: 15px 0 20px 0;
+  padding: 20px 30px;
+  width: 698px;
+  border: 0px;
+  max-width: 728px;
+  background: #F7F9FC;
+}
+/*--------------------------МЕДИА-ЗАПРОСЫ--------------------------------*/
+/*-----------------------------1440px------------------------------------*/
+@media (max-width: 1440px) {
+.header {
+  width: 480px;
+  height: 160px;
+ }
+ .logo {
+   padding-left: 20px;
+ }
+ .wrapper {
+   width: 952px;
+ }
+ .mounth {
+   padding-top: 50px;
+   font-size: 14px;
+ }
+ .text {
+   font-size: 17px;
+ }
+ .post1 {
+ padding-right: 5px;
+ padding-left: 0px;
+ }
+ .post1_1, .post2_1, .post3_1 {
+   padding: 0 80px;
+ }
+ .h {
+   font-size: 40px;
+ }
+ main {
+   padding: 0 20px;
+ }
+ .hashtag {
+ position: relative;
+ float: none;
+ bottom: 18px;
+ padding-right: 20px;
+ }
+ .hashtag a {
+   margin: 0 10px 0 0;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.3);
+  }
+ .read {
+   margin: 0;
+   padding: 20px 0 35px 0;
+ }
+ .i_do_travel {
+   position: relative;
+   top: 20px;
+   left: 95px;
+ }
+ .i_do_observe {
+   position: relative;
+   top: 20px;
+   left: 90px;
+ }
+ .i_do_reflect {
+   position: relative;
+   top: 20px;
+   left: 90px;
+ }
+ .images {
+   width: 912px;
+   height: auto;
+ }
+ .comment_1 {
+   font-size: 25px;
+ }
+ .img {
+   float: left;
+ }
+ .comment {
+   font-size: 20px;
+ }
+ /*--------------------------2 страница---------------------------------------*/
+   .post1_2 {
+     padding: 0 60px;
+   }
+   .h2 {
+     margin: 0;
+     padding: 20px 0 30px 0;
+     font-size: 40px;
+   }
+   .send {
+     margin: 0;
+     padding: 45px 0;
+   }
+/*----------------------------ПОДВАЛ-----------------------------------------*/
+   .nav2 {
+     margin: 25px 0 40px 0;
+   }
+   .nav2 a{
+     padding-left:8px;
+     line-height: 30px;
+   }
+   .footer_text2 {
+     font-size: 13px;
+     margin: 0 111px;
+   }
+   .footer_text3 {
+     margin: 0 95px;
+   }
+   .hr1 {
+     margin: 40px auto;
+     width: 952px;
+   }
+   .hr2 {
+     margin: 40px 0 50px 35px;
+     width: 900px;
+   }
+}
+
+/*------------------------------480px------------------------------------*/
+@media (max-width: 480px) {
+.header {
+  width: 480px;
+  height: 160px;
+ }
+ .nav {
+   display: none;
+ }
+ .poisk {
+   display: none;
+ }
+ .logo {
+   padding-left: 20px;
+ }
+ .wrapper {
+   width: 480px;
+ }
+ .mounth {
+   padding-top: 30px;
+   font-size: 18px;
+ }
+ .text {
+   font-size: 18px;
+ }
+ .post1 {
+ padding-right: 5px;
+ padding-left: 0px;
+ }
+ .post1_1 {
+   padding: 0 0 0 15px;
+ }
+ .h {
+   font-size: 32px;
+ }
+ main {
+   padding: 0 20px;
+ }
+ .hashtag {
+ position: relative;
+ float: none;
+ bottom: 18px;
+ padding-right: 20px;
+ }
+ .hashtag a {
+   margin: 0 10px 0 0;
+   text-decoration: none;
+   color: rgba(0, 0, 0, 0.3);
+  }
+ .read {
+   margin: 0;
+   padding: 20px 0 35px 0;
+ }
+ .i_do_travel {
+   position: relative;
+   left: 5px;
+ }
+ .images {
+   width: 440px;
+   height: auto;
+ }
+ .i_do_observe {
+   position: relative;
+   left: auto;
+   bottom: 255px;
+ }
+ .post2_1 {
+ padding: 0 0 0 15px;
+ }
+ .comment_1 {
+   font-size: 21px;
+ }
+ .post3_1 {
+   padding: 0 0 0 15px;
+ }
+ .i_do_reflect {
+   position: relative;
+   left: auto;
+ }
+ .img {
+   float: none;
+   padding: 0 0 0 114px;
+ }
+ .comment {
+   font-size: 20px;
+ }
+ /*--------------------------2 страница---------------------------------------*/
+   .post1_2 {
+     padding: 0 15px;
+   }
+   .h2 {
+     margin: 0;
+     padding: 20px 0 30px 0;
+     font-size: 32px;
+   }
+   .form1, .form2, .form3, .form4 {
+     margin: 10px 0;
+     width: 350px;
+   }
+   .send {
+     margin: 0;
+     padding: 20px 0;
+   }
+/*----------------------------ПОДВАЛ-----------------------------------------*/
+   .nav2 {
+     margin: 25px 0 40px 0;
+   }
+   .nav2 a{
+     padding-left:8px;
+     line-height: 30px;
+   }
+   .footer_text2 {
+     font-size: 13px;
+     margin: 0 70px;
+   }
+   .footer_text3 {
+     margin: 0 95px;
+   }
+   .hr1 {
+     margin: 20px auto;
+     width: 400px;
+   }
+   .hr2 {
+     margin: 20px 0 50px 60px;
+     width: 360px;
+   }
+}
+
+/*------------------------------320px-------------------------------------*/
+@media (max-width: 320px) {
+  .header {
+    width: 320px;
+    height: 160px;
+  }
+  .nav {
+    display: none;
+  }
+  .poisk {
+    display: none;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  .wrapper {
+    width: 320px;
+  }
+  .mounth {
+    padding-top: 30px;
+    font-size: 15px;
+  }
+  .text {
+    font-size: 16px;
+  }
+  .post1 {
+  padding-right: 5px;
+  padding-left: 0px;
+  }
+  .post1_1 {
+    padding: 0 0 0 15px;
+  }
+  .h {
+    font-size: 27px;
+  }
+  main {
+    padding: 0 20px;
+  }
+  .hashtag {
+  position: relative;
+  float: none;
+  bottom: 18px;
+  padding-right: 20px;
+  }
+  .hashtag a {
+    margin: 0 10px 0 0;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.3);
+   }
+  .read {
+    margin: 0;
+    padding: 20px 0 35px 0;
+  }
+  .i_do_travel {
+    position: relative;
+    left: 5px;
+  }
+  .images {
+    width: 280px;
+    height: auto;
+  }
+  .i_do_observe {
+    position: relative;
+    left: auto;
+    bottom: 166px;
+  }
+  .post2_1 {
+  padding: 0 0 0 15px;
+  }
+  .comment_1 {
+    font-size: 18px;
+  }
+  .post3_1 {
+    padding: 0 0 0 15px;
+  }
+  .i_do_reflect {
+    position: relative;
+    left: auto;
+  }
+  .img {
+    float: none;
+    padding: 0 0 0 30px;
+  }
+  .comment {
+    font-size: 20px;
+  }
+  /*--------------------------2 страница---------------------------------------*/
+    .post1_2 {
+      padding: 0 0 0 15px;
+    }
+    .h2 {
+      margin: 0;
+      padding: 20px 0 30px 0;
+      font-size: 24px;
+    }
+    .form1, .form2, .form3, .form4 {
+      margin: 10px 0;
+      width: auto;
+    }
+    .send {
+      margin: 0;
+      padding: 20px 0;
+    }
+/*----------------------------ПОДВАЛ-----------------------------------------*/
+  .nav2 {
+    margin: 25px 0 40px 0;
+  }
+  .nav2 a{
+    display: block;
+    padding: 0;
+    line-height: 30px;
+  }
+  .footer_text2 {
+    font-size: 13px;
+    margin: 0 30px;
+  }
+  .footer_text3 {
+    margin: 0 45px;
+  }
+  .hr1 {
+    margin: 20px auto;
+    width: 280px;
+  }
+  .hr2 {
+    margin: 20px 0 50px 30px;
+    width: 250px;
+  }
+}
+
+ /*
+ .header {
+   width: 320px;
+ }
+ .nav {
+   display: none;
+ }
+ .images {
+   width: 320px;
+
+ }
+ .poisk {
+   display: none;
+ }
+ .logo {
+   float: none;
+ }
+ .wrapper {
+   width: 320px;
+ }
+} */
